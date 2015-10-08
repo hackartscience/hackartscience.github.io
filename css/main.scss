@@ -1,0 +1,235 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+// Our variables
+$font-family: 'Lato', Arial, sans-serif;
+$heading-font-family:  'Oswald', Arial, sans-serif;
+
+$color_C: #80F2F2;
+$color_M: #FF80DF;
+$color_Y: #FFDF80;
+$color_K: #333333;
+$color_W: #FFFFFF;
+
+$header-color: $color_W;
+$header-background: $color_K;
+
+$body-color: $color_K;
+$body-background: $color_W;
+
+$footer-color: $color_W;
+$footer-background: $color_K;
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+  "_normalize",
+  "_skeleton"
+;
+
+h2, h3, h4, h5, h6 {
+  font-family: $heading-font-family;
+  color: $color_C;
+}
+
+h1 {
+  font-family: $heading-font-family;
+  color: $color_M;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+// Stylish things
+
+hr {
+  text-align: center;
+  border-top: 0;
+  border-bottom: 2px dotted $color_C;
+}
+
+hr:after {
+  display: inline;
+  position: relative;
+  top: -15px;
+  content: '\0025A7';
+  background-color: $body-background;
+  padding: 0 10px;
+  font-size: 18px;
+  color: $color_Y;
+}
+
+// Nav
+nav {
+  margin: 0;
+  padding: 0;
+  color: $header-color;
+  background-color: $header-background;
+  line-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav img {
+  height: 2.5rem;
+  background-color: $color_W;
+  padding: 10px;
+  display: inline;
+}
+
+nav a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+@media ($bp-larger-than-tablet) {
+  nav a {
+    font-size: 2.5rem;
+  }
+}
+
+nav a:link, nav a:visited, nav a:hover, nav a:active {
+  color: $header-color;
+  text-decoration: none;
+}
+
+nav > span > a:before {
+  content: '\0025ab';
+  color: $color_M;
+  padding: 0 10px;
+}
+
+nav > span > a:first-child:before {
+  content: "";
+}
+
+nav:after {
+  content: "";
+  width: 2em;
+}
+
+// Header
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+header > * {
+  margin: 0;
+}
+
+header * {
+  max-width: 100%;
+}
+
+hr {
+  text-align: center;
+}
+
+.starred {
+  border-top: 4px double $body-color;
+}
+
+.starred:after {
+  display: inline;
+  position: relative;
+  top: -15px;
+  content: '\002605';
+  background-color: $body-background;
+  padding: 0 10px;
+  font-size: 18px;
+  color: $body-color;
+}
+
+// Main page
+main {
+  background-color: $body-background;
+  color: $body-color;
+  padding: 5rem 0;
+}
+
+// Footer
+.org-img {
+  width: 5em;
+}
+
+footer, body {
+  background-color: $footer-background;
+  color: $footer-color;
+}
+
+footer {
+  padding: 2rem 1rem 0 1rem;
+}
+
+footer > ul a {
+  text-decoration: none;
+}
+
+.side-by-side ul, footer ul {
+  list-style: none;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+footer * {
+  font-size: 2rem;
+  line-height: 150%;
+}
+
+footer a:link, footer a:visited {
+  color: $color_Y;
+}
+
+footer > * {
+  margin: 10px;
+}
+
+footer ul {
+  min-width: 25rem;
+  max-width: 25rem;
+  width: 25rem;
+}
+
+footer p {
+  font-style: italic;
+  max-width: 80rem;
+}
+
+footer li {
+  margin: 0;
+}
+
+footer svg {
+  fill: $color_M;
+  width: 24px;
+  height: 24px;
+  margin: 0 0.5em;
+}
+
+@media ($bp-larger-than-tablet) {
+  .side-by-side {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  .side-by-side-heading {
+    min-width: 20rem;
+    max-width: 20rem;
+    width: 20rem;
+  }
+
+  footer {
+    flex-direction: row;
+  }
+}
+
+
