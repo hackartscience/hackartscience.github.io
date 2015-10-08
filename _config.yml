@@ -1,6 +1,5 @@
 # Site settings
 title: hackartscience
-email: ilebedev@mit.edu
 description: > # this means to ignore newlines until "baseurl:"
   We are a creative collective of experts dedicated to improving their
   environment via arts, open technology, and free education. We collaborate on
@@ -11,6 +10,7 @@ url: "http://hackartscience.com" # the base hostname & protocol for your site
 twitter_username:   hackartscience
 github_username:    hackartscience
 facebook_username:  hackartscience
+email: contact@hackartscience.com
 
 # Build settings
 markdown: kramdown
