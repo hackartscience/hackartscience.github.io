@@ -10,7 +10,7 @@ url: "http://hackartscience.com" # the base hostname & protocol for your site
 twitter_username:   hackartscience
 github_username:    hackartscience
 facebook_username:  hackartscience
-email: contact@hackartscience.com
+email: hi@hackartscience.com
 
 # Build settings
 markdown: kramdown
