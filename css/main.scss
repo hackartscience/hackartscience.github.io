@@ -40,6 +40,16 @@ h1 {
   text-decoration: underline;
 }
 
+h1, h2, h3, h4{
+  text-align: center;
+}
+
+@media ($bp-larger-than-tablet) {
+  h1, h2, h3, h4{
+    text-align: left;
+  }
+}
+
 // Stylish things
 
 hr {
@@ -63,6 +73,8 @@ hr:after {
 nav {
   margin: 0;
   padding: 0;
+  max-width:100%;
+  overflow: hidden;
   color: $header-color;
   background-color: $header-background;
   line-height: 100%;
@@ -126,6 +138,12 @@ header > * {
   margin: 0;
 }
 
+header > p {
+  margin-top: 1ex;
+  color: $color_K;
+  font-style: italic;
+}
+
 header * {
   max-width: 100%;
 }
@@ -154,7 +172,37 @@ main {
   background-color: $body-background;
   color: $body-color;
   padding: 5rem 0;
+  text-align: center;
 }
+
+main p {
+  text-align: left;
+}
+
+.featured-project > img {
+  width: 15em;
+}
+
+@media ($bp-larger-than-tablet) {
+  main {
+    text-align: left;
+  }
+
+  .featured-project {
+    display: inline-block;
+  }
+
+  .featured-project > img {
+    float: left;
+    margin: 1em;
+    display: block;
+  }
+
+  .featured-project > p {
+    margin-left: 17em;
+  }
+}
+
 
 // Footer
 .org-img {
