@@ -13,3 +13,4 @@ permalink: /about/
 
 <a href="http://sarahycheng.com/">Sarah</a>, MIT alumni and a full-stack engineer working on all things web-related. Sarah is a philosophy and video game enthusiast, and spends a lot of time thinking of ways to effect maximum good.
 
+Ethan is a gentleman with a propensity for mischief, sarcasm, and applying the scientific method to determine which rules and laws in society are actually enforced. He is an expert in practical computer security and occupies his free time with books, crafting cocktails, and creative writing.
