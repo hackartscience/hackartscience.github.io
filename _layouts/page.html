@@ -1,13 +1,19 @@
 ---
 layout: default
 ---
+
 <header>
-  <h1>{{ page.title }}</h1>
+  {% if page.picture-title %}
+    <img src="{{page.picture-title}}" alt="{{page.title}}" />
+  {% else %}
+    <h1>{{ page.title }}</h1>
+  {% endif %}
+  </title>
   <p>{{ page.subtitle }}</p>
 </header>
 
 <hr>
 
-<article>
+<!--<article>-->
   {{ content }}
-</article>
+<!--</article>-->
