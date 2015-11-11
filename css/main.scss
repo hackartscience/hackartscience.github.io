@@ -98,9 +98,9 @@ nav {
   max-width:100%;
   overflow: hidden;
   color: $header-color;
-  background-color: $header-background;
-  line-height: 100%;
+  line-height: 0;
   display: flex;
+  background-color: $color_K;
   align-items: center;
   justify-content: space-between;
 }
@@ -110,6 +110,11 @@ nav img {
   background-color: $color_W;
   padding: 10px;
   display: inline;
+}
+
+nav span {
+  margin: 0;
+  padding: 0;
 }
 
 nav a {
