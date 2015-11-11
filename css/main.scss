@@ -7,9 +7,12 @@
 $font-family: 'Lato', Arial, sans-serif;
 $heading-font-family:  'Oswald', Arial, sans-serif;
 
-$color_C: #80F2F2;
-$color_M: #FF80DF;
-$color_Y: #FFDF80;
+$color_Y: #FFDD80;
+$color_G: #89FF80;
+$color_C: #80EFFF;
+$color_P: #AA80FF;
+$color_M: #FF80BC;
+
 $color_K: #333333;
 $color_W: #FFFFFF;
 
@@ -28,24 +31,43 @@ $footer-background: $color_K;
   "_skeleton"
 ;
 
-h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6 {
   font-family: $heading-font-family;
-  color: $color_C;
+  text-align: center;
 }
 
 h1 {
-  font-family: $heading-font-family;
   color: $color_M;
   text-transform: uppercase;
   text-decoration: underline;
 }
 
-h1, h2, h3, h4{
-  text-align: center;
+h2 {
+  color: $color_Y;
+}
+
+h3 {
+  color: $color_C;
+}
+
+h4 {
+  color: $color_G;
+}
+
+h5 {
+  color: $color_K;
+}
+
+h6 {
+  color: $color_K;
+}
+
+a {
+  color: darken($color_C, 33.333%);
 }
 
 @media ($bp-larger-than-tablet) {
-  h1, h2, h3, h4{
+  h1, h2, h3, h4, h5, h6 {
     text-align: left;
   }
 }
