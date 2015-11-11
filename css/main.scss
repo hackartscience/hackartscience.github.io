@@ -36,18 +36,22 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
 }
 
+header > h1 {
+  color: $color_P;
+}
+
 h1 {
-  color: $color_M;
+  color: $color_C;
   text-transform: uppercase;
   text-decoration: underline;
 }
 
 h2 {
-  color: $color_Y;
+  color: $color_M;
 }
 
 h3 {
-  color: $color_C;
+  color: $color_Y;
 }
 
 h4 {
@@ -175,25 +179,6 @@ header * {
   max-width: 100%;
 }
 
-hr {
-  text-align: center;
-}
-
-.starred {
-  border-top: 4px double $body-color;
-}
-
-.starred:after {
-  display: inline;
-  position: relative;
-  top: -15px;
-  content: '\002605';
-  background-color: $body-background;
-  padding: 0 10px;
-  font-size: 18px;
-  color: $body-color;
-}
-
 // Main page
 main {
   background-color: $body-background;
@@ -209,6 +194,11 @@ main p {
 .featured {
   padding: 0;
   margin: 0;
+  margin-top: 4ex;
+}
+
+.featured:not(:last-of-type) {
+  border-bottom: 5px dotted $color_Y;
 }
 
 .featured > .featured-picture {
