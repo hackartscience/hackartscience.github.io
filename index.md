@@ -13,20 +13,6 @@ permalink: /
 some of our featured work:
 ==========================
 
-> ![Laundromat](/images/laundromat.svg)
-> {: featured-picture}
->
-> Laundromat
-> ----------
->
-> [https://laundromat.hackartscience.com](https://laundromat.hackartscience.com)
->
-> We at hackartscience love film and TV, but are not very fond of carrying our obscure collections around with us.
-> We do, however, usually have access to the internet.
-> We pooled and curated our movie collections, and hosted the resulting rare media wonderland à la [Netflix](http://www.netflix.com/browse) via a web application with some strong security guarantees.
-> Laundromat is hosted on a tiny [Raspberry Pi](https://www.raspberrypi.org/), and is surprisingly capable of streaming high-bandwidth video to a handful of users concurrently.
-{: featured}
-
 > ![DIY Sailing](/images/boat.svg)
 > {: featured-picture}
 >
