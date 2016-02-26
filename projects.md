@@ -47,13 +47,13 @@ permalink: /experiments/
 > It's our own private [Dropbox](https://www.dropbox.com/)!
 {: featured}
 
-> [Laundromat](/images/laundromat.svg)
+> ![Laundromat](/images/laundromat.svg)
 > {: featured-picture}
 >
 > Laundromat
 > ----------
 >
-> ![https://laundromat.hackartscience.com](https://laundromat.hackartscience.com)
+> [https://laundromat.hackartscience.com](https://laundromat.hackartscience.com)
 >
 > We at hackartscience love film and TV, but are not very fond of carrying our obscure collections around with us.
 > We do, however, usually have access to the internet.
