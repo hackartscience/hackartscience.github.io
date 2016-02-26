@@ -53,7 +53,7 @@ permalink: /experiments/
 > Laundromat
 > ----------
 >
-> [https://laundromat.hackartscience.com](https://laundromat.hackartscience.com)
+> ![https://laundromat.hackartscience.com](https://laundromat.hackartscience.com)
 >
 > We at hackartscience love film and TV, but are not very fond of carrying our obscure collections around with us.
 > We do, however, usually have access to the internet.
