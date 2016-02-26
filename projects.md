@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Experiments
-subtitle: Here is where the things we tinker on live until they graduate and become projects
+title: Projects
+subtitle: Here is where the lasting things we tinker on live
 permalink: /experiments/
 ---
 
