@@ -1,7 +1,7 @@
 ---
 layout: page
 title: hackartscience
-picture-title: /images/hackartscience.svg
+picture-title: https://files.hackartscience.com/export/hackartscience_common/logo/hackartscience.svg
 subtitle: here, we can accomplish more together than we could alone
 permalink: /
 ---
