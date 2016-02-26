@@ -17,3 +17,4 @@ markdown: kramdown
 
 collections:
   - projects
+  - people
