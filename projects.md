@@ -2,7 +2,7 @@
 layout: page
 title: Projects
 subtitle: Here is where the lasting things we tinker on live
-permalink: /experiments/
+permalink: /projects/
 ---
 
 {% include styles.md %}
