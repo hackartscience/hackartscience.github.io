@@ -7,7 +7,7 @@ permalink: /projects/
 
 {% include styles.md %}
 
-> ![mannes-reserve](/images/mannes-reserve.svg)
+> ![mannes-reserve](https://files.hackartscience.com/export/hackartscience_common/logo/mannes-reserve.svg)
 >{: featured-picture}
 >
 > Mannes-reserve
@@ -18,7 +18,7 @@ permalink: /projects/
 > Reserving rooms at [Mannes New School](http://www.newschool.edu/mannes/) is annoying, especially if you are hoping to establish a regular schedule. Do you want this process automated? This little app does just that: given a weekly schedule, it reserves your preferred rooms in a timely manner. Let us know if you would like your practice room reservations automated!
 {: featured}
 
-> ![DIY Sailing](/images/boat.svg)
+> ![DIY Sailing](https://files.hackartscience.com/export/hackartscience_common/logo/boat.svg)
 > {: featured-picture}
 >
 > DIY Sailing
@@ -34,7 +34,7 @@ permalink: /projects/
 >Read about our adventures, and come sailing with us!
 {: featured}
 
-> ![hackartscience Cloud](/images/files.logo.svg)
+> ![hackartscience Cloud](https://files.hackartscience.com/export/hackartscience_common/logo/files.svg)
 > {: featured-picture}
 >
 > hackartscience cloud
@@ -47,7 +47,7 @@ permalink: /projects/
 > It's our own private [Dropbox](https://www.dropbox.com/)!
 {: featured}
 
-> ![Laundromat](/images/laundromat.svg)
+> ![Laundromat](https://files.hackartscience.com/export/hackartscience_common/logo/laundromat.svg)
 > {: featured-picture}
 >
 > Laundromat
