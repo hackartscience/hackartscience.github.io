@@ -5,4 +5,4 @@ subtitle: We write things sometimes, and this is where our writing ends up
 permalink: /articles/
 ---
 
-We will put some things here soon, surely!
+We will put some things here soon, surely! Something is already in the works.
