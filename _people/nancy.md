@@ -1,6 +1,6 @@
 ---
 name: Nancy
-avatar: https://files.hackartscience.com/export/hackartscience_common/people/nancy.svg
+avatar: https://files.hackartscience.com/export/hackartscience/people/nancy.svg
 link: http://www.orangenarwhals.com/
 order: 3
 ---
