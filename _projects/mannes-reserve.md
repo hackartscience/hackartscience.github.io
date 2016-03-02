@@ -1,6 +1,6 @@
 ---
 title: Mannes-Reserve
-logo: https://files.hackartscience.com/export/hackartscience_common/logo/mannes-reserve.svg
+logo: https://files.hackartscience.com/export/hackartscience/logo/mannes-reserve.svg
 link: http://mannes-reserve.hackartscience.com
 ---
 
