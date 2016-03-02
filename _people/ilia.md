@@ -1,6 +1,6 @@
 ---
 name: Ilia
-avatar: https://files.hackartscience.com/export/hackartscience_common/people/ilia.svg
+avatar: https://files.hackartscience.com/export/hackartscience/people/ilia.svg
 link: http://ilia.hackartscience.com
 order: 1
 ---
