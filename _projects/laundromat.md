@@ -1,6 +1,6 @@
 ---
 title: Laundromat
-logo: https://files.hackartscience.com/export/hackartscience_common/logo/laundromat.svg
+logo: https://files.hackartscience.com/export/hackartscience/logo/laundromat.svg
 link: https://laundromat.hackartscience.com
 ---
 
