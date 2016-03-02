@@ -1,6 +1,6 @@
 ---
 name: Sarah
-avatar: https://files.hackartscience.com/export/hackartscience_common/people/sarah.svg
+avatar: https://files.hackartscience.com/export/hackartscience/people/sarah.svg
 link: http://sarahycheng.com
 order: 2
 ---
