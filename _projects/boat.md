@@ -14,4 +14,4 @@ Read about our adventures, and come sailing with us!
 
 [outlaw]: http://sailboatdata.com/viewrecord.asp?class_id=436
 [rhodes]: https://en.wikipedia.org/wiki/Philip_Rhodes
-[nmea2000]: https://en.wikipedia.org/wiki/Philip_Rhodes
+[nmea2000]: https://en.wikipedia.org/wiki/NMEA_2000
