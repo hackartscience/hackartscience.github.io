@@ -1,6 +1,6 @@
 ---
 name: Ethan
-avatar: https://files.hackartscience.com/export/hackartscience/people/ethan.svg
+avatar: https://static.hackartscience.com/hackartscience/people/ethan.svg
 link:
 order: 4
 ---

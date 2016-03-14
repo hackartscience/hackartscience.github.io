@@ -1,6 +1,6 @@
 ---
 title: Files
-logo: https://files.hackartscience.com/export/hackartscience/logo/files.svg
+logo: https://static.hackartscience.com/hackartscience/logo/files.svg
 link: https://files.hackartscience.com
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Boat
-logo: https://files.hackartscience.com/export/hackartscience/logo/boat.svg
+logo: https://static.hackartscience.com/hackartscience/logo/boat.svg
 link: http://boat.csail.mit.edu
 featured: true
 ---
