@@ -1,7 +1,7 @@
 ---
 title: Laundromat
 logo: https://static.hackartscience.com/hackartscience/logo/laundromat.svg
-link: https://laundromat.hackartscience.com
+link: https://hackartscience.com
 ---
 
 We at hackartscience love film and TV, but are not very fond of carrying our obscure collections around with us.
